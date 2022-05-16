@@ -1,0 +1,20 @@
+/*
+.studies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+ sx={{ display: 'flex', justifyContent: 'center'}}
+
+*/
+a[disabled] {
+    pointer-events: none;
+}
+
+@media screen and ( max-width: 900px) {
+    .icon {
+        transform: rotate(90deg);
+        margin: 1em;
+    }
+}

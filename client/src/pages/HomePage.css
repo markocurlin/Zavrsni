@@ -1,0 +1,66 @@
+.container-top {
+    margin: 150px 0px 0px 140px;
+}
+
+.container-top img {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    height: 70%;
+}
+
+@media screen and (max-width: 1300px) {
+    .container-top {
+        margin: 150px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .container-top img {
+        display: none;
+    }
+}
+
+/*
+.slika {
+    /*position: absolute;
+    top: 10%;
+    right: 10%;
+    height: 70%;
+    width: 70%;
+}
+
+@media screen and (max-width: 1300px) {
+    .slika {
+        display: none;
+    }
+}
+*/
+.container-top .typical {
+    color: #377dff;
+    text-decoration: rgb(251, 233, 194) 12px underline;
+}
+
+.container-middle {
+    margin-top: 20em;
+    text-align: center;
+}
+
+.icon-box {
+    background-color: rgb(235, 242, 255);
+    border-radius: 100px;
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.container-quote {
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+    /*
+    display: flex;
+    justify-content: center;
+    za paper isto
+    */
+}
